@@ -2,5 +2,5 @@
 -- Average Assistance Request Wait Time 
 --/////////////////////////////////////////////
 
-SELECT avg(created_at-started_at) as average_wait_time
+SELECT avg(started_at-created_at) as average_wait_time
 FROM assistance_requests;
