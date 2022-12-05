@@ -1,6 +1,6 @@
-/*/////////////////////////////////////////////*/
-/* Pertinent Details about Assistance Requests */
-/*/////////////////////////////////////////////*/
+--////////////////////////////////////////////////
+-- Pertinent Details about Assistance Requests
+--////////////////////////////////////////////////
 
 SELECT teachers.name as teacher, students.name as student, assignments.name as assignment, (completed_at-started_at) as duration
 FROM assistance_requests
