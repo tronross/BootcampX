@@ -18,7 +18,7 @@ ORDER BY teacher;
 `;
 
 const cohortName = process.argv[2];
-const values =[`${cohortName}`];
+const values = [`${cohortName}`];
 
 pool.query(queryString, values)
   .then(res => {
