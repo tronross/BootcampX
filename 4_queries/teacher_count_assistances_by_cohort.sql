@@ -1,5 +1,5 @@
 --/////////////////////////////////////////////////////////////////////////////////
---Teachers Who Performed Assistance Requests and their Total Number of (by Cohort)
+--Teachers Who Performed Assistance Requests and their Total Number (by Cohort)
 --/////////////////////////////////////////////////////////////////////////////////
 
 SELECT DISTINCT teachers.name as teacher, cohorts.name as cohort, count(assistance_requests) as total_assistances
